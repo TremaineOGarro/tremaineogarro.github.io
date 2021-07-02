@@ -1,0 +1,136 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+body {
+  color: white;
+  background-color: black; 
+}
+
+.hidden {
+  display: none;
+}
+</style>
+</head>
+<body class="Straw_Hat_Crew">
+  <div>
+    <h1> Tremaine O'Garro </h1L>
+  </div>
+  <div>
+    <h2 id="Background"> Background </h2>
+    <p id="BP1"> Tremaine O'Garro is an aspiring software engineer 
+      with a focus on building applications 
+      that will have a positive impact on the world 
+      at large. </p>
+  </div>
+  <div>
+  <h2 id="WorkExperience"> Work Experience </h2>
+  <h3 id="FSAFCP"> Full Stack Academy Future Code Program </h3>
+  <ul id="JobDuties">
+    <li id="jdl1"> Learned to code my butt off </li>
+    <li id="jdl2"> Met some amazing people </li>
+    <li id="jdl3"> Started making some money </li>
+  </ul>
+  </div>
+  <div>
+  <h2 id="Education"> Education </h2>
+  <p id="EP"> I received my education from the school of hard knocks 
+    and have no formal education outside of Future Code. </p>
+  </div>
+  <div>
+  <h2 id="Hobbies"> Hobbies </h2>
+  <ul id="HobbiesList">
+    <li id="HobbiesList1"> Reading </li>
+    <li id="HobbiesList2"> Traveling </li>
+    <li id="HobbiesList3"> Dining </li>
+    <li id="HobbiesList4"> Community Service </li>
+  </ul>
+  </div>
+  <script id="jsbin-javascript">
+const bg = document.getElementById('Background');
+const bp1 = document.getElementById('BP1');
+const we = document.getElementById('WorkExperience');
+const fsa = document.getElementById('FSAFCP');
+const wel1 = document.getElementById('jdl1');
+const wel2 = document.getElementById('jdl2');
+const wel3 = document.getElementById('jdl3');
+const jd = document.getElementById('JobDuties');
+const ed = document.getElementById('Education');
+const ep = document.getElementById('EP');
+const Hobbies = document.getElementById('Hobbies');
+const hobList = document.getElementById('HobbiesList');
+const hob1 = document.getElementById('HobbiesList1');
+const hob2 = document.getElementById('HobbiesList2');
+const hob3 = document.getElementById('HobbiesList3');
+const hob4 = document.getElementById('HobbiesList4');
+
+bg.addEventListener('click', function(){
+   BP1.classList.toggle('hidden');
+});
+  
+we.addEventListener('click', function(){
+   fsa.classList.toggle('hidden');
+   wel1.classList.toggle('hidden');
+   wel2.classList.toggle('hidden');
+   wel3.classList.toggle('hidden')
+});
+
+ed.addEventListener('click', function(){
+   ep.classList.toggle('hidden');
+});
+
+Hobbies.addEventListener('click', function(){
+  hobList.classList.toggle('hidden');
+});
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">body {
+  color: white;
+  background-color: black; 
+}
+
+.hidden {
+  display: none;
+}
+
+</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">const bg = document.getElementById('Background');
+const bp1 = document.getElementById('BP1');
+const we = document.getElementById('WorkExperience');
+const fsa = document.getElementById('FSAFCP');
+const wel1 = document.getElementById('jdl1');
+const wel2 = document.getElementById('jdl2');
+const wel3 = document.getElementById('jdl3');
+const jd = document.getElementById('JobDuties');
+const ed = document.getElementById('Education');
+const ep = document.getElementById('EP');
+const Hobbies = document.getElementById('Hobbies');
+const hobList = document.getElementById('HobbiesList');
+const hob1 = document.getElementById('HobbiesList1');
+const hob2 = document.getElementById('HobbiesList2');
+const hob3 = document.getElementById('HobbiesList3');
+const hob4 = document.getElementById('HobbiesList4');
+
+bg.addEventListener('click', function(){
+   BP1.classList.toggle('hidden');
+});
+  
+we.addEventListener('click', function(){
+   fsa.classList.toggle('hidden');
+   wel1.classList.toggle('hidden');
+   wel2.classList.toggle('hidden');
+   wel3.classList.toggle('hidden')
+});
+
+ed.addEventListener('click', function(){
+   ep.classList.toggle('hidden');
+});
+
+Hobbies.addEventListener('click', function(){
+  hobList.classList.toggle('hidden');
+});</script></body>
+</html>
